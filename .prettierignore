@@ -60,3 +60,9 @@ Dockerfile*
 # misc
 src/components/ui
 LICENSE
+src-tauri/src
+src-tauri/target
+src-tauri/*.rs
+src-tauri/Cargo.toml
+src-tauri/Cargo.lock
+

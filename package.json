@@ -1,14 +1,14 @@
 {
-  "name": "next-template",
-  "version": "1.0.0",
+  "name": "next-with-tauri",
+  "version": "0.0.0",
   "private": true,
-  "homepage": "https://github.com/draco-china/next-template",
+  "homepage": "https://github.com/draco-china/next-with-tauri",
   "bugs": {
-    "url": "https://github.com/draco-china/next-template/issues/new"
+    "url": "https://github.com/draco-china/next-with-tauri/issues/new"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/draco-china/next-template.git"
+    "url": "https://github.com/draco-china/next-with-tauri.git"
   },
   "license": "MIT",
   "author": "draco-china",
@@ -25,6 +25,12 @@
     "prettier": "prettier -c --write \"**/**\"",
     "release": "semantic-release",
     "start": "next start",
+    "tauri:android:build": "tauri android build",
+    "tauri:android:dev": "tauri android dev",
+    "tauri:build": "tauri build",
+    "tauri:dev": "tauri dev",
+    "tauri:ios:build": "tauri ios build",
+    "tauri:ios:dev": "tauri ios dev",
     "test": "npm run lint"
   },
   "dependencies": {
@@ -95,6 +101,7 @@
     "@lobehub/i18n-cli": "^1.18.1",
     "@next/third-parties": "^14.2.3",
     "@tailwindcss/typography": "^0.5.13",
+    "@tauri-apps/cli": "^2.0.0-beta.18",
     "@types/cookie": "^0.6.0",
     "@types/node": "^20",
     "@types/react": "^18",
@@ -110,6 +117,7 @@
     "eslint-plugin-tailwindcss": "^3.15.2",
     "esno": "^4.7.0",
     "husky": "^9.0.11",
+    "internal-ip": "7.0.0",
     "lint-staged": "^15.2.2",
     "next-pwa": "^5.6.0",
     "postcss": "^8.4.38",

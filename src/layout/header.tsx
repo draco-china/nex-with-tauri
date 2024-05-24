@@ -4,7 +4,7 @@ import SwitchLanguage from './switch-language';
 
 export function LayoutHeader() {
   return (
-    <header className='sticky top-0 z-40 w-full border-b backdrop-blur-md'>
+    <header className='sticky top-0 z-40 h-auto w-full border-b pt-[calc(env(safe-area-inset-top))] backdrop-blur-md'>
       <div className='container flex h-16 items-center justify-between'>
         <div className='flex gap-6'>
           <Link href='/' className='flex items-center space-x-2'>

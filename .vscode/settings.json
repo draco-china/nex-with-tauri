@@ -17,7 +17,7 @@
     "*.jsx": "${capture}.js",
     "*.tsx": "${capture}.ts",
     "package.json": "*.lock, *.yaml, *.yml, *.json, .eslint*, .stylelint*, .prettier*, .change*, .release*, .remark*, .i18nrc.js, .iconifyrc.js, *ignore, .lintstagedrc, .editorconfig, LICENSE",
-    "next.config.mjs": "*.ts, *.mjs, *.css",
+    "next.config.mjs": "*.ts, *.mjs, *.css, replace.js",
     "Dockerfile": "Dockerfile, .dockerignore",
     "tsconfig.json": "tsconfig.*.json",
     ".env": ".env*, .env.local",

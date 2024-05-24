@@ -32,7 +32,7 @@
 [![][github-issues-shield]][github-issues-link]
 [![][github-license-shield]][github-license-link]
 
-![](https://urlscan.io/liveshot/?width=1920&height=1080&url=https://next-template-gules.vercel.app/zh-CN)
+![](https://urlscan.io/liveshot/?width=1920&height=1080&url=https://next-with-tauri.vercel.app/zh-CN)
 
 </div>
 
@@ -71,8 +71,8 @@
 或者克隆仓库进行本地开发:
 
 ```bash
-git clone https://github.com/draco-china/next-template.git
-cd next-template
+git clone https://github.com/draco-china/next-with-tauri.git
+cd next-with-tauri
 
 # 安装依赖
 pnpm install
@@ -85,7 +85,7 @@ pnpm dev
 
 ## 🚀 在 Vercel 上部署
 
-[![在 Vercel 上部署](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdraco-china%2Fnext-template)
+[![在 Vercel 上部署](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdraco-china%2Fnext-with-tauri)
 
 将您的 Next.js 应用程序部署到 Vercel 平台是最简单的方式。
 
@@ -122,30 +122,30 @@ pnpm dev
 <!-- LINK GROUP -->
 
 [back-to-top]: https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square
-[codespaces-link]: https://codespaces.new/draco-china/next-template
+[codespaces-link]: https://codespaces.new/draco-china/next-with-tauri
 [codespaces-shield]: https://github.com/codespaces/badge.svg
-[contributors-contrib]: https://contrib.rocks/image?repo=draco-china/next-template
-[contributors-url]: https://github.com/draco-china/next-template/graphs/contributors
-[github-action-release-link]: https://github.com/draco-china/next-template/actions/workflows/release.yml
-[github-action-release-shield]: https://img.shields.io/github/actions/workflow/status/draco-china/next-template/release.yml?label=release&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
-[github-action-test-link]: https://github.com/draco-china/next-template/actions/workflows/test.yml
-[github-action-test-shield]: https://img.shields.io/github/actions/workflow/status/draco-china/next-template/test.yml?label=test&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
-[github-contributors-link]: https://github.com/draco-china/next-template/graphs/contributors
-[github-contributors-shield]: https://img.shields.io/github/contributors/draco-china/next-template?color=c4f042&labelColor=black&style=flat-square
-[github-forks-link]: https://github.com/draco-china/next-template/network/members
-[github-forks-shield]: https://img.shields.io/github/forks/draco-china/next-template?color=8ae8ff&labelColor=black&style=flat-square
-[github-issues-link]: https://github.com/draco-china/next-template/issues
-[github-issues-shield]: https://img.shields.io/github/issues/draco-china/next-template?color=ff80eb&labelColor=black&style=flat-square
-[github-license-link]: https://github.com/draco-china/next-template/blob/master/LICENSE
-[github-license-shield]: https://img.shields.io/github/license/draco-china/next-template?color=white&labelColor=black&style=flat-square
-[github-release-link]: https://github.com/draco-china/next-template/releases
-[github-release-shield]: https://img.shields.io/github/v/release/draco-china/next-template?style=flat-square&sort=semver&logo=github
-[github-releasedate-link]: https://github.com/draco-china/next-template/releases
-[github-releasedate-shield]: https://img.shields.io/github/release-date/draco-china/next-template?labelColor=black&style=flat-square
-[github-stars-link]: https://github.com/draco-china/next-template/network/stargazers
-[github-stars-shield]: https://img.shields.io/github/stars/draco-china/next-template?color=ffcb47&labelColor=black&style=flat-square
-[gitpod-link]: https://gitpod.io/#https://github.com/draco-china/next-template
-[issues-link]: https://github.com/draco-china/next-template/issues/new/choose
-[pr-welcome-link]: https://github.com/draco-china/next-template/pulls
+[contributors-contrib]: https://contrib.rocks/image?repo=draco-china/next-with-tauri
+[contributors-url]: https://github.com/draco-china/next-with-tauri/graphs/contributors
+[github-action-release-link]: https://github.com/draco-china/next-with-tauri/actions/workflows/release.yml
+[github-action-release-shield]: https://img.shields.io/github/actions/workflow/status/draco-china/next-with-tauri/release.yml?label=release&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
+[github-action-test-link]: https://github.com/draco-china/next-with-tauri/actions/workflows/test.yml
+[github-action-test-shield]: https://img.shields.io/github/actions/workflow/status/draco-china/next-with-tauri/test.yml?label=test&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
+[github-contributors-link]: https://github.com/draco-china/next-with-tauri/graphs/contributors
+[github-contributors-shield]: https://img.shields.io/github/contributors/draco-china/next-with-tauri?color=c4f042&labelColor=black&style=flat-square
+[github-forks-link]: https://github.com/draco-china/next-with-tauri/network/members
+[github-forks-shield]: https://img.shields.io/github/forks/draco-china/next-with-tauri?color=8ae8ff&labelColor=black&style=flat-square
+[github-issues-link]: https://github.com/draco-china/next-with-tauri/issues
+[github-issues-shield]: https://img.shields.io/github/issues/draco-china/next-with-tauri?color=ff80eb&labelColor=black&style=flat-square
+[github-license-link]: https://github.com/draco-china/next-with-tauri/blob/master/LICENSE
+[github-license-shield]: https://img.shields.io/github/license/draco-china/next-with-tauri?color=white&labelColor=black&style=flat-square
+[github-release-link]: https://github.com/draco-china/next-with-tauri/releases
+[github-release-shield]: https://img.shields.io/github/v/release/draco-china/next-with-tauri?style=flat-square&sort=semver&logo=github
+[github-releasedate-link]: https://github.com/draco-china/next-with-tauri/releases
+[github-releasedate-shield]: https://img.shields.io/github/release-date/draco-china/next-with-tauri?labelColor=black&style=flat-square
+[github-stars-link]: https://github.com/draco-china/next-with-tauri/network/stargazers
+[github-stars-shield]: https://img.shields.io/github/stars/draco-china/next-with-tauri?color=ffcb47&labelColor=black&style=flat-square
+[gitpod-link]: https://gitpod.io/#https://github.com/draco-china/next-with-tauri
+[issues-link]: https://github.com/draco-china/next-with-tauri/issues/new/choose
+[pr-welcome-link]: https://github.com/draco-china/next-with-tauri/pulls
 [pr-welcome-shield]: https://img.shields.io/badge/🤯_pr_welcome-%E2%86%92-ffcb47?labelColor=black&style=for-the-badge
 [profile-link]: https://github.com/draco-china

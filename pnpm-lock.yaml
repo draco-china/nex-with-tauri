@@ -203,6 +203,9 @@ importers:
       '@tailwindcss/typography':
         specifier: ^0.5.13
         version: 0.5.13(tailwindcss@3.4.3)
+      '@tauri-apps/cli':
+        specifier: ^2.0.0-beta.18
+        version: 2.0.0-beta.18
       '@types/cookie':
         specifier: ^0.6.0
         version: 0.6.0
@@ -248,6 +251,9 @@ importers:
       husky:
         specifier: ^9.0.11
         version: 9.0.11
+      internal-ip:
+        specifier: 7.0.0
+        version: 7.0.0
       lint-staged:
         specifier: ^15.2.2
         version: 15.2.2
@@ -3605,6 +3611,104 @@ packages:
     peerDependencies:
       react: ^18.0.0
 
+  '@tauri-apps/cli-darwin-arm64@2.0.0-beta.18':
+    resolution:
+      {
+        integrity: sha512-Jq49VH/UpHVkWw+qqymY1xWLMu7FF+4r5C4qVZvgm5Mkgulgf63jyCkrejdlXvOJQNm5MAHTyn2hnX6ZDeWVxA==,
+      }
+    engines: { node: '>= 10' }
+    cpu: [arm64]
+    os: [darwin]
+
+  '@tauri-apps/cli-darwin-x64@2.0.0-beta.18':
+    resolution:
+      {
+        integrity: sha512-50UZNSPfMveKv8jH674S8r+844Ew3WFyastZU+/Q2pPCzqBU4ejdVVLT/37oZo8ip3VpLR3+TBfSn0dmdKrgUw==,
+      }
+    engines: { node: '>= 10' }
+    cpu: [x64]
+    os: [darwin]
+
+  '@tauri-apps/cli-linux-arm-gnueabihf@2.0.0-beta.18':
+    resolution:
+      {
+        integrity: sha512-2AI8j2LwryQ+HYMvLNx9EDRWMRwWhK/7RKdOkxgXEbLXc6AKzwVZLH6QddQvjcq8nBR6zk5wnvBjxo1DcQEBSA==,
+      }
+    engines: { node: '>= 10' }
+    cpu: [arm]
+    os: [linux]
+
+  '@tauri-apps/cli-linux-arm64-gnu@2.0.0-beta.18':
+    resolution:
+      {
+        integrity: sha512-HcPWBF/rJkBgzQhuUwxY8v/+44EamEqqj6rNO6j59d070e/80Uaild6a7A2LKNtvskm7zK436oDfWCyOBF/QQA==,
+      }
+    engines: { node: '>= 10' }
+    cpu: [arm64]
+    os: [linux]
+
+  '@tauri-apps/cli-linux-arm64-musl@2.0.0-beta.18':
+    resolution:
+      {
+        integrity: sha512-JkQ4rMtuhPFotMKsVhbRF18f3EiHsdnu7QiOy3i9idFnAv1moo7tU46ntRJtXr8FRTEHywMnnzlNo4Tg5fbZSw==,
+      }
+    engines: { node: '>= 10' }
+    cpu: [arm64]
+    os: [linux]
+
+  '@tauri-apps/cli-linux-x64-gnu@2.0.0-beta.18':
+    resolution:
+      {
+        integrity: sha512-H0whpcVNrVx3apDz2Kp+OgNcJFkTxijqEABYtHS7vXHnhmb6DNdUlKudSW0NwK8SmHJREm0KJftEszrJOoJwaw==,
+      }
+    engines: { node: '>= 10' }
+    cpu: [x64]
+    os: [linux]
+
+  '@tauri-apps/cli-linux-x64-musl@2.0.0-beta.18':
+    resolution:
+      {
+        integrity: sha512-pti+ttp3Kn7s0Xu4Dc+Z6idLWaQqZel8UqLlvHY21Tf/G4TgMBoyonIWRfQMRoy4DcW/8Oml5F4ZY6IdTC9dgg==,
+      }
+    engines: { node: '>= 10' }
+    cpu: [x64]
+    os: [linux]
+
+  '@tauri-apps/cli-win32-arm64-msvc@2.0.0-beta.18':
+    resolution:
+      {
+        integrity: sha512-hcc2YsFTbwoctuf+mC3DSy1FVMifH02+6I8kjXXXj2DE4FguP6TwbH43oY+GB6zI3bNdRRhqaZ83GfPTLR55pw==,
+      }
+    engines: { node: '>= 10' }
+    cpu: [arm64]
+    os: [win32]
+
+  '@tauri-apps/cli-win32-ia32-msvc@2.0.0-beta.18':
+    resolution:
+      {
+        integrity: sha512-8wPZ9L87m0vXNKuMWaYN7nz23Nx95yMEAFCZLrVgpvWahh+LyUho7TrHUQqzE3pGtlkhWDA64hqvuH8Sg75Jwg==,
+      }
+    engines: { node: '>= 10' }
+    cpu: [ia32]
+    os: [win32]
+
+  '@tauri-apps/cli-win32-x64-msvc@2.0.0-beta.18':
+    resolution:
+      {
+        integrity: sha512-x31LCiExR1cS/xXNs1AJEDEM7dtoE3tYWy6u7Kcl1bQBWZV5AAEofRhO1iztWCNdOm2Ddvc/Ugb8Q2khAu7+iw==,
+      }
+    engines: { node: '>= 10' }
+    cpu: [x64]
+    os: [win32]
+
+  '@tauri-apps/cli@2.0.0-beta.18':
+    resolution:
+      {
+        integrity: sha512-VcuvIyKsGVygUX1sIZmyCinzfudhcgzkFY8c9UBTbpf2/dtJADqqKEirsTXa/XPvWK64weyHFpr+i1uL7zopsg==,
+      }
+    engines: { node: '>= 10' }
+    hasBin: true
+
   '@tootallnate/once@2.0.0':
     resolution:
       {
@@ -5687,6 +5791,13 @@ packages:
       }
     engines: { node: '>=0.10.0' }
 
+  default-gateway@6.0.3:
+    resolution:
+      {
+        integrity: sha512-fwSOJsbbNzZ/CUFpqFBqYfYNLj1NbMPm8MMCIzHjC83iSJRBEGmDUxU+WP661BaBQImeC2yHwXtz+P/O9o+XEg==,
+      }
+    engines: { node: '>= 10' }
+
   defer-to-connect@2.0.1:
     resolution:
       {
@@ -7617,6 +7728,13 @@ packages:
       react: ^16.8 || ^17.0 || ^18.0
       react-dom: ^16.8 || ^17.0 || ^18.0
 
+  internal-ip@7.0.0:
+    resolution:
+      {
+        integrity: sha512-qE4TeD4brqC45Vq/+VASeMiS1KRyfBkR6HT2sh9pZVVCzSjPkaCEfKFU+dL0PRv7NHJtvoKN2r82G6wTfzorkw==,
+      }
+    engines: { node: ^12.20.0 || ^14.13.1 || >=16.0.0 }
+
   internal-slot@1.0.7:
     resolution:
       {
@@ -7643,6 +7761,20 @@ packages:
         integrity: sha512-CYdFeFexxhv/Bcny+Q0BfOV+ltRlJcd4BBZBYFX/O0u4npJrgZtIcjokegtiSMAvlMTJ+Koq0GBCc//3bueQxw==,
       }
     engines: { node: '>=8' }
+
+  ip-regex@4.3.0:
+    resolution:
+      {
+        integrity: sha512-B9ZWJxHHOHUhUjCPrMpLD4xEq35bUTClHM1S6CBU5ixQnkZmwipwgc96vAd7AAGM9TGHvJR+Uss+/Ak6UphK+Q==,
+      }
+    engines: { node: '>=8' }
+
+  ipaddr.js@2.2.0:
+    resolution:
+      {
+        integrity: sha512-Ag3wB2o37wslZS19hZqorUnrnzSkpOVy+IiiDEiTqNubEYpYuHWIf6K4psgN2ZWKExS4xhVCrRVfb/wfW8fWJA==,
+      }
+    engines: { node: '>= 10' }
 
   irregular-plurals@3.5.0:
     resolution:
@@ -7837,6 +7969,13 @@ packages:
         integrity: sha512-iwGqO3J21aaSkC7jWnHP/difazwS7SFeIqxv6wEtLU8Y5KlzFTjyqcSIT0d8s4+dDhKytsk9PJZ2BkS5eZwQRQ==,
       }
     engines: { node: '>=10' }
+
+  is-ip@3.1.0:
+    resolution:
+      {
+        integrity: sha512-35vd5necO7IitFPjd/YBeqwWnyDWbuLH9ZXQdMfDA8TEo7pv5X8yfrvVO3xbJbLUlERCMvf6X0hTUamQxCYJ9Q==,
+      }
+    engines: { node: '>=8' }
 
   is-lower-case@2.0.2:
     resolution:
@@ -8372,10 +8511,10 @@ packages:
         integrity: sha512-Y+60/zizpJ3HRH8DCss+q95yr6145JXZo46OTpFvDZWLfRCE4qChOyk1b26nMaNpfHHgxagk9dXT5OP0Tfe+dQ==,
       }
 
-  langchain@0.2.0:
+  langchain@0.2.1:
     resolution:
       {
-        integrity: sha512-8c7Dg9OIPk4lFIQGyfOytXbUGLLSsxs9MV53cLODspkOGzaUpwy5FGBie30SrOxIEFJo+FDaJgpDAFO3Xi4NMw==,
+        integrity: sha512-aCAsUwcmXjvhVsbAbR7NnzQ8jIjJPOx1EW4CmHX9Ggxp150EZYbLv7RJ5uBfj47hYUEFMfAqsCt524BwGnelng==,
       }
     engines: { node: '>=18' }
     peerDependencies:
@@ -10258,6 +10397,13 @@ packages:
         integrity: sha512-lastgtAdoH9YaLyDa5i5z64q+kzOcQHsQ5SsZJD3q0VEyI8mq872S3geuNbRUQLVAE9siMfgKrpj7MloKFHruw==,
       }
     engines: { node: '>=12' }
+
+  p-event@4.2.0:
+    resolution:
+      {
+        integrity: sha512-KXatOjCRXXkSePPb1Nbi0p0m+gQAwdlbhi4wQKJPI1HsMQS9g+Sqp2o+QHziPr7eYJyOZet836KoHEVM1mwOrQ==,
+      }
+    engines: { node: '>=8' }
 
   p-filter@2.1.0:
     resolution:
@@ -15619,7 +15765,7 @@ snapshots:
       ink: 4.4.1(@types/react@18.3.2)(react@18.3.1)
       json-stable-stringify: 1.1.1
       just-diff: 6.0.2
-      langchain: 0.2.0(axios@1.6.8)(cheerio@1.0.0-rc.12)(handlebars@4.7.8)(ignore@5.3.1)(openai@4.47.1)(ws@8.17.0)
+      langchain: 0.2.1(axios@1.6.8)(cheerio@1.0.0-rc.12)(handlebars@4.7.8)(ignore@5.3.1)(openai@4.47.1)(ws@8.17.0)
       lodash-es: 4.17.21
       p-map: 7.0.2
       pangu: 4.0.7
@@ -16859,6 +17005,49 @@ snapshots:
     dependencies:
       '@tanstack/query-core': 5.36.1
       react: 18.3.1
+
+  '@tauri-apps/cli-darwin-arm64@2.0.0-beta.18':
+    optional: true
+
+  '@tauri-apps/cli-darwin-x64@2.0.0-beta.18':
+    optional: true
+
+  '@tauri-apps/cli-linux-arm-gnueabihf@2.0.0-beta.18':
+    optional: true
+
+  '@tauri-apps/cli-linux-arm64-gnu@2.0.0-beta.18':
+    optional: true
+
+  '@tauri-apps/cli-linux-arm64-musl@2.0.0-beta.18':
+    optional: true
+
+  '@tauri-apps/cli-linux-x64-gnu@2.0.0-beta.18':
+    optional: true
+
+  '@tauri-apps/cli-linux-x64-musl@2.0.0-beta.18':
+    optional: true
+
+  '@tauri-apps/cli-win32-arm64-msvc@2.0.0-beta.18':
+    optional: true
+
+  '@tauri-apps/cli-win32-ia32-msvc@2.0.0-beta.18':
+    optional: true
+
+  '@tauri-apps/cli-win32-x64-msvc@2.0.0-beta.18':
+    optional: true
+
+  '@tauri-apps/cli@2.0.0-beta.18':
+    optionalDependencies:
+      '@tauri-apps/cli-darwin-arm64': 2.0.0-beta.18
+      '@tauri-apps/cli-darwin-x64': 2.0.0-beta.18
+      '@tauri-apps/cli-linux-arm-gnueabihf': 2.0.0-beta.18
+      '@tauri-apps/cli-linux-arm64-gnu': 2.0.0-beta.18
+      '@tauri-apps/cli-linux-arm64-musl': 2.0.0-beta.18
+      '@tauri-apps/cli-linux-x64-gnu': 2.0.0-beta.18
+      '@tauri-apps/cli-linux-x64-musl': 2.0.0-beta.18
+      '@tauri-apps/cli-win32-arm64-msvc': 2.0.0-beta.18
+      '@tauri-apps/cli-win32-ia32-msvc': 2.0.0-beta.18
+      '@tauri-apps/cli-win32-x64-msvc': 2.0.0-beta.18
 
   '@tootallnate/once@2.0.0': {}
 
@@ -18227,6 +18416,10 @@ snapshots:
   deep-is@0.1.4: {}
 
   deepmerge@4.3.1: {}
+
+  default-gateway@6.0.3:
+    dependencies:
+      execa: 5.1.1
 
   defer-to-connect@2.0.1: {}
 
@@ -19677,6 +19870,13 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
+  internal-ip@7.0.0:
+    dependencies:
+      default-gateway: 6.0.3
+      ipaddr.js: 2.2.0
+      is-ip: 3.1.0
+      p-event: 4.2.0
+
   internal-slot@1.0.7:
     dependencies:
       es-errors: 1.3.0
@@ -19693,6 +19893,10 @@ snapshots:
       loose-envify: 1.4.0
 
   invert-kv@3.0.1: {}
+
+  ip-regex@4.3.0: {}
+
+  ipaddr.js@2.2.0: {}
 
   irregular-plurals@3.5.0: {}
 
@@ -19785,6 +19989,10 @@ snapshots:
     dependencies:
       global-dirs: 3.0.1
       is-path-inside: 3.0.3
+
+  is-ip@3.1.0:
+    dependencies:
+      ip-regex: 4.3.0
 
   is-lower-case@2.0.2:
     dependencies:
@@ -20029,7 +20237,7 @@ snapshots:
 
   kolorist@1.8.0: {}
 
-  langchain@0.2.0(axios@1.6.8)(cheerio@1.0.0-rc.12)(handlebars@4.7.8)(ignore@5.3.1)(openai@4.47.1)(ws@8.17.0):
+  langchain@0.2.1(axios@1.6.8)(cheerio@1.0.0-rc.12)(handlebars@4.7.8)(ignore@5.3.1)(openai@4.47.1)(ws@8.17.0):
     dependencies:
       '@langchain/core': 0.2.0(openai@4.47.1)
       '@langchain/openai': 0.0.33
@@ -21279,6 +21487,10 @@ snapshots:
   p-defer@1.0.0: {}
 
   p-each-series@3.0.0: {}
+
+  p-event@4.2.0:
+    dependencies:
+      p-timeout: 3.2.0
 
   p-filter@2.1.0:
     dependencies:
