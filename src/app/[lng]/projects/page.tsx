@@ -22,13 +22,13 @@ export default function Projects() {
     },
   });
   return (
-    <div className='container grid gap-6 py-6 lg:grid-cols-3'>
+    <div className='container grid w-full gap-6 py-6 lg:grid-cols-3'>
       {data?.map((item: any) => {
         return (
           <Card key={item.id}>
-            <CardHeader>
+            <CardHeader className='w-full'>
               <CardTitle>{item.name}</CardTitle>
-              <CardDescription className='truncate'>
+              <CardDescription className='line-clamp-1'>
                 {item.description || 'No description'}
               </CardDescription>
             </CardHeader>
