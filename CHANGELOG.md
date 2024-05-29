@@ -2,6 +2,12 @@
 
 # Changelog
 
+## [1.0.2](https://github.com/draco-china/next-with-tauri/compare/v1.0.1...v1.0.2) (2024-05-29)
+
+### 🐛 Bug Fixes
+
+- **app**: Fix Android full screen hide statusBar ([aae5e6e](https://github.com/draco-china/next-with-tauri/commit/aae5e6e))
+
 ## [1.0.1](https://github.com/draco-china/next-with-tauri/compare/v1.0.0...v1.0.1) (2024-05-25)
 
 ### 💄 Styles
